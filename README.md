@@ -1,10 +1,6 @@
 <h1 align="center">Hi 👋, I'm Bharat Bhushan</h1>
 <h3 align="center">A passionate frontend developer from India,</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=strangemortal&label=Profile%20views&color=0e75b6&style=flat" alt="strangemortal" /> </p>
-
-<p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
-
 - 🔭 I’m currently working on [socialmeet](https://socialsmeet.netlify.app/)
 
 - 🌱 I’m currently learning **advance frontend developer, and SQL**
@@ -17,7 +13,10 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://instagram.com/b2b0k04" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="b2b0k04" height="30" width="40" /></a>
+<a href="https://twitter.com/bharatbkoffical" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="bharatbkoffical" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/www.linkedin.com/in/bharat-bhushan-2183b5218" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="www.linkedin.com/in/bharat-bhushan-2183b5218" height="30" width="40" /></a>
+<a href="https://fb.com/bharat bhushan kumbhkar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="bharat bhushan kumbhkar" height="30" width="40" /></a>
+<a href="https://instagram.com/b2b0k04" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="b2b0k04" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
