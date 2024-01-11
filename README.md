@@ -5,7 +5,7 @@
 
 - 🌱 I’m currently learning **advance frontend developer, and SQL**
 
-- 👨‍💻 All of my projects are available at [https://github.com/Strangemortal]([https://github.com/Strangemortal](https://github.com/Strangemortal?tab=repositories))
+- 👨‍💻 All of my projects are available at [https://github.com/Strangemortal](https://github.com/Strangemortal?tab=repositories)
 
 - 📫 How to reach me **bittu979766@gmail.com**
 
