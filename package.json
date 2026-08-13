@@ -1,0 +1,12 @@
+{
+  "name": "Strangemortal",
+  "version": "1.0.0",
+  "description": "Bharat Bhushan's GitHub Profile README",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "generate": "node generate.mjs"
+  }
+}
