@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 /**
  * Script to generate a Soothing, Ultra-Dense Matrix Digital Rain Header SVG
- * featuring "Hi, I'm Bharat Bhushan" with seamless, soothing matrix rain
- * and hidden 'grvsnh' easter egg streams matching the natural green/white rain colors.
+ * featuring "Hi, I'm Bharat Bhushan" with bright, crisp vertical 'grvsnh'
+ * easter egg streams rendered in natural bright Matrix green/white.
  *
  * Outputs:
  *   - dist/matrix-header-dark.svg
@@ -41,8 +41,8 @@ function generateMatrixHeader(theme = "dark") {
   const matrixBodyColor = isDark ? "#00ff66" : "#059669";
   const matrixTailColor = isDark ? "#003b18" : "#93c5fd";
 
-  // Dedicated easter egg columns for "grvsnh" (blended seamlessly)
-  const easterEggCols = new Set([20, 50, 85, 115]);
+  // Dedicated easter egg columns for "grvsnh"
+  const easterEggCols = new Set([18, 48, 82, 112]);
   const grvsnhChars = ["g", "r", "v", "s", "n", "h"];
 
   let keyframeCss = `@keyframes fall {\n`;
@@ -65,17 +65,19 @@ function generateMatrixHeader(theme = "dark") {
     let charTspans = "";
 
     if (isEasterEgg) {
-      // Seamless grvsnh easter egg stream using standard green/white rain colors
-      const sequence = ["*", "0", "1", ...grvsnhChars, "1", "0"];
-      const charLen = sequence.length;
+      // Crisp, highly-visible grvsnh vertical stream in matrix green/white
+      const streamSequence = ["0", "1", "g", "r", "v", "s", "n", "h", "1", "0", "1"];
+      const charLen = streamSequence.length;
 
       for (let c = 0; c < charLen; c++) {
-        const char = sequence[c];
+        const char = streamSequence[c];
+        const isGrvsnh = grvsnhChars.includes(char);
         const isHead = c === charLen - 1;
-        const opacity = (isHead ? 1 : ((c + 1) / charLen * baseOpacity)).toFixed(2);
-        const fill = isHead ? matrixHeadColor : (c > charLen - 5 ? matrixBodyColor : matrixTailColor);
-        const fontSize = isHead ? 13 : 11;
-        const fontWeight = isHead ? "bold" : "normal";
+
+        const opacity = isHead ? 1 : isGrvsnh ? 0.95 : 0.7;
+        const fill = isHead ? matrixHeadColor : matrixBodyColor; // Crisp matrix green!
+        const fontSize = isGrvsnh ? 14 : 12;
+        const fontWeight = isGrvsnh ? "bold" : "normal";
 
         charTspans += `<tspan x="${x}" dy="15" fill="${fill}" opacity="${opacity}" font-size="${fontSize}" font-weight="${fontWeight}">${char}</tspan>`;
       }
@@ -136,7 +138,7 @@ function generateMatrixHeader(theme = "dark") {
 <!-- Background Base -->
 <rect width="${width}" height="${height}" fill="${bgColor}" rx="12"/>
 
-<!-- 135-Column Soothing Ultra-Dense Matrix Digital Rain Layer with Seamless 'grvsnh' Easter Egg Streams -->
+<!-- 135-Column Soothing Matrix Digital Rain Layer with Crisp 'grvsnh' Easter Egg Streams -->
 <g id="matrix-rain" opacity="${isDark ? '0.92' : '0.7'}">
 ${streamsSvg}</g>
 
@@ -167,7 +169,7 @@ async function main() {
   fs.writeFileSync(lightPath, lightSvg, "utf8");
   fs.writeFileSync(defaultPath, darkSvg, "utf8");
 
-  console.log(`Generated Perfect Matrix Header SVGs in '${outDir}':`);
+  console.log(`Generated Crisp Matrix Header SVGs with visible 'grvsnh' easter egg in '${outDir}':`);
   console.log(` - Dark: ${darkPath}`);
   console.log(` - Light: ${lightPath}`);
 }
