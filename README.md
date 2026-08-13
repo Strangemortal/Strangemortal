@@ -1,8 +1,11 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Strangemortal/Strangemortal/main/dist/matrix-header-dark.svg">
+    <img alt="Bharat Bhushan Profile Banner" src="https://raw.githubusercontent.com/Strangemortal/Strangemortal/main/dist/matrix-header-light.svg" width="100%" />
+  </picture>
+</p>
+
 <div align="center">
-
-# Hi 👋, I'm Bharat Bhushan
-
-### Frontend Developer | Problem Solver | Tech Enthusiast
 
 <p>
   🚀 Currently building <strong>SocialMeet</strong> &nbsp;|&nbsp; 
