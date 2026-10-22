@@ -244,6 +244,7 @@
 <rect x="482.00" y="29.00" width="11" height="11" rx="2" ry="2" fill="#40c463"><animate attributeName="fill" dur="20s" repeatCount="indefinite" keyTimes="0;0.48;0.486;0.52;0.526;1" values="#40c463;#40c463;#39d353;#40c463;#39d353;#40c463"/></rect>
 <rect x="482.00" y="43.00" width="11" height="11" rx="2" ry="2" fill="#216e39"><animate attributeName="fill" dur="20s" repeatCount="indefinite" keyTimes="0;0.48;0.486;0.52;0.526;1" values="#216e39;#216e39;#39d353;#216e39;#39d353;#216e39"/></rect>
 <rect x="482.00" y="57.00" width="11" height="11" rx="2" ry="2" fill="#40c463"><animate attributeName="fill" dur="20s" repeatCount="indefinite" keyTimes="0;0.48;0.486;0.52;0.526;1" values="#40c463;#40c463;#39d353;#40c463;#39d353;#40c463"/></rect>
+<rect x="482.00" y="71.00" width="11" height="11" rx="2" ry="2" fill="#9be9a8"/>
 </g>
 <g id="bullets">
 <circle cx="151.5" cy="128" r="2.4" fill="#7ee787"><animate attributeName="cy" dur="20s" repeatCount="indefinite" keyTimes="0;0.1275;0.1455;1" values="128;128;62.5;62.5"/><animate attributeName="opacity" dur="20s" repeatCount="indefinite" keyTimes="0;0.1275;0.1455;0.1515;1" values="0;1;1;0;0"/></circle>
